@@ -1,3 +1,34 @@
-# Smart-Air-Purification-Humidifier
-Smart Air Purification Humidifier is an IoT-based system designed to improve indoor air quality by filtering pollutants and automatically controlling humidity levels using sensors and smart monitoring.
-# Smart Air Purification Humidifier  ## Project Description Smart Air Purification Humidifier is an Arduino-based system designed to monitor temperature and humidity and automatically maintain comfortable indoor air conditions.  ## Components Used - Arduino Uno - DHT11 Sensor - 16x2 LCD Display - Water Pump (Humidifier) - Fan - Relay Module - Jumper Wires - Power Supply  ## Working Principle The DHT11 sensor measures temperature and humidity in the environment.   The Arduino processes this data and displays it on the LCD screen.  If the humidity drops below a predefined value, the humidifier pump turns ON automatically.   If the temperature increases above a certain level, the fan turns ON to improve air circulation.  ## Features - Automatic humidity control - Temperature monitoring - Real-time di
+# Smart Air Purification Humidifier
+
+## Project Description
+The Smart Air Purification Humidifier is an Arduino-based system designed to improve indoor air quality and maintain comfortable humidity levels. The system monitors environmental conditions using sensors and automatically controls devices such as a fan and humidifier pump to maintain a healthy atmosphere.
+
+## Components Used
+- Arduino Uno
+- DHT11 Temperature and Humidity Sensor
+- 16x2 LCD Display
+- Water Pump (Humidifier)
+- Fan
+- Relay Module
+- Jumper Wires
+- Power Supply
+
+## Working Principle
+The DHT11 sensor continuously measures the temperature and humidity of the surrounding environment. The Arduino processes this data and displays the readings on a 16x2 LCD display.
+
+If the humidity level drops below a predefined value, the Arduino activates the water pump to increase humidity. If the temperature rises above a set limit, the fan turns ON to improve air circulation.
+
+This system helps maintain a comfortable indoor environment automatically without manual control.
+
+## Features
+- Automatic humidity control
+- Real-time temperature and humidity monitoring
+- LCD display for live data
+- Energy-efficient operation
+- Simple and low-cost design
+
+## Programming Language
+Arduino (C/C++)
+
+## Author
+Abhishek K
